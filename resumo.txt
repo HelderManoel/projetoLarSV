@@ -1,0 +1,15 @@
+<section class="mt-5">
+        <div class="container d-flex flex-row">
+            <div class="col-sm-5 p-5 d-flex align-items-center" >
+                <img class="img" style="width:80%; height: 80%;" src="./assets/produtosSolidarios/ebook.webp"
+                    alt="#Para todos verem: Foto de evento com diversas pessoas, ao lado esquerdo, homem de pele negra, cabelo preto, óculos e camisa cinza e, ao lado direito, idosa de pele branca, cabelos grizalhos usando vestido azul em cadeira de rodas. Ambos sorriem enquanto exibem um certificado">
+            </div>
+            <div class="col-sm d-flex flex-column my-5 justify-content-center p-5" style="background-color: #EBE3D5;">
+                <div class="ml-3">
+                    <h4 class="mb-5 subtitulo">"E-book do lar"</h4>
+                    <p class="texto-home">"Envelhecendo com qualidade de vida: Os múltiplos olhares, saberes e práticas em instituição de longa permanência para idosos", um E-book produzido pela equipe multiprofissional da ILPI</p>
+                    <a href="https://www.larsaovicentesalgueiro.com/_files/ugd/b0923f_620f5fd4dc184d48b6e5405f9ff4335b.pdf">Clique aqui para baixar</a>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -1,282 +1,259 @@
- 
-   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); 
- 
- /* body{
-     font-family: 'Poppins', sans-serif; 
-     background:#d2d2d2;
-     padding:10rem 2rem;
- }
- h2 {
-   text-align: center;
-   padding: 3rem;
-   font-size: 3.5rem;
-   margin-bottom:3rem;
- }  */
- /* Slider */ 
- .slick-slide {
-   margin: 0px 10px;
- } 
- .slick-slide img {
-   width: 100%;
- }
-  
- /* --- */
-  
-  .section-text{
-    position: relative;
+.links {
+  text-decoration: none;
+  color: #5F6F52;
+}
 
-  }
-  .img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  } 
-  .image-overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 50%; 
-  }
-  
-  .image-overlay2 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 50%; 
-    left: 0;
-  }
-  
-  h1.titulo{
-    font-family: 'Lilita One', sans-serif !important;
-    color: #555;
-    }
-    .subtitulo{
-      font-family: 'Lilita One', sans-serif !important;
-      color: #555;
-    }
-   .box {
-    background-repeat: no-repeat;
-    background-size: cover;  
-    background: 
-      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-      url("https://media.istockphoto.com/id/1446888422/pt/foto/woman-hugging-her-elderly-mother.webp?s=1024x1024&w=is&k=20&c=KDT1R43lrUOSo2AFzBWntzg9l4ALifBEHcdruSJI5lc=");
-  }
-  
-  .rep {
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-   /* .box+box {
-      background: 
-      linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
-      url("https://media.istockphoto.com/id/1446888422/pt/foto/woman-hugging-her-elderly-mother.webp?s=1024x1024&w=is&k=20&c=KDT1R43lrUOSo2AFzBWntzg9l4ALifBEHcdruSJI5lc=");
-  }  */
+.img-pf {
+  width: 500px;
+  height: 400px;
+}
 
-  .fontes {
-color: white;
-  }
+.img-verticais {
+  width: 400px;
+  height: 500px;
+}
 
-  .foto2 {
-    background-image: url("https://static.wixstatic.com/media/b0923f_6c89104673844f1d9fd978cfd607b036~mv2.jpeg/v1/fill/w_445,h_340,al_c,q_80,usm_0.66_1.00_0.01/b0923f_6c89104673844f1d9fd978cfd607b036~mv2.jpeg");
-    width: auto;
-    height: auto;
-    }
+.section-text {
+  position: relative;
+
+}
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+}
+
+.image-overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  left: 0;
+}
+
+h2.titulo {
+  font-family: 'Lilita One', sans-serif !important;
+  color: #555;
+}
+
+.subtitulo {
+  font-family: 'Lilita One', sans-serif !important;
+  color: #555;
+}
+
+.box {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://media.istockphoto.com/id/1446888422/pt/foto/woman-hugging-her-elderly-mother.webp?s=1024x1024&w=is&k=20&c=KDT1R43lrUOSo2AFzBWntzg9l4ALifBEHcdruSJI5lc=");
+}
+
+
+.grad {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    /* url("https://media.istockphoto.com/id/1446888422/pt/foto/woman-hugging-her-elderly-mother.webp?s=1024x1024&w=is&k=20&c=KDT1R43lrUOSo2AFzBWntzg9l4ALifBEHcdruSJI5lc="); */
+}
+
+.rep {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fontes {
+  color: white;
+}
+
+.foto2 {
+  background-image: url("https://static.wixstatic.com/media/b0923f_6c89104673844f1d9fd978cfd607b036~mv2.jpeg/v1/fill/w_445,h_340,al_c,q_80,usm_0.66_1.00_0.01/b0923f_6c89104673844f1d9fd978cfd607b036~mv2.jpeg");
+  width: auto;
+  height: auto;
+}
 
 
 body {
-    background-color: #FEFAE0;
-    
-    }
-    .texto-home{
-      font-family: 'Jost', sans-serif !important;
-      font-size: 20px;
-      color: #555;
-    }
+  background-color: #FEFAE0;
+
+}
+
+.texto-home {
+  font-family: 'Jost', sans-serif !important;
+  font-size: 20px;
+  color: #555;
+}
 
 .parceiros {
-    height : 50px;
-    width : 50px;
+  height: 50px;
+  width: 50px;
 
-}    
-#imgtxt {
-    background-color: #B99470;
-    color: white;
-   
 }
- .cardes {
-    background-color: #A9B388;
 
- }
+#imgtxt {
+  background-color: #B99470;
+  color: white;
 
- .barra-topo {
-    position: fixed;
-    top: 0;
-    background: #A9B388;
-    width: 100%;
-    z-index: 999999;
-    font-size: 14px;
-    height: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 0px;
-  }
+}
 
-  .d-none {
-    display: none !important;
-  }
+.cardes {
+  background-color: #A9B388;
 
-  .menu-geral{
-    position: fixed;
-      z-index: 9999;
-      background-color: #5F6F52;      /*background: #ffbb01;*/
-      width: 100%;
-      -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
-      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
-      -webkit-transition: all .15s ease-in-out;
-      transition: all .15s ease-in-out;
-      margin-top: 40px;
-  }
-  .menu-geral-sozinho{
-    position: fixed;
-      z-index: 9999;
-      background-color: #5F6F52;      /*background: #ffbb01;*/
-      width: 100%;
-      -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
-      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
-      -webkit-transition: all .15s ease-in-out;
-      transition: all .15s ease-in-out;
-  }
+}
 
-  .contato-topo-dir {
-    display: flex;
-    justify-content: space-between;
+.barra-topo {
+  position: fixed;
+  top: 0;
+  background: #A9B388;
+  width: 100%;
+  z-index: 999999;
+  font-size: 14px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
 
-  }
-  
-  /* --- */
+.d-none {
+  display: none !important;
+}
 
-  /* h2{
-    text-align:center;
+.menu-geral {
+  position: fixed;
+  z-index: 9999;
+  background-color: #5F6F52;
+  /*background: #ffbb01;*/
+  width: 100%;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  margin-top: 40px;
+}
+
+.menu-geral-sozinho {
+  position: fixed;
+  z-index: 9999;
+  background-color: #5F6F52;
+  /*background: #ffbb01;*/
+  width: 100%;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.contato-topo-dir {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/* --- */
+
+/* body{
+    background:#eee;
+} */
+
+.brands {
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.brands_slider_container {
+  height: 130px;
+  border: solid 1px #e8e8e8;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 97px;
+  padding-right: 97px;
+  background: #fff;
+}
+
+.brands_slider {
+  height: 100%;
+  margin-top: 50px;
+}
+
+.brands_item {
+  height: 100%;
+}
+
+.brands_item img {
+  max-width: 100%;
+}
+
+.brands_nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.brands_nav i {
+  color: #e5e5e5;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.brands_nav:hover i {
+  color: #676767;
+}
+
+.brands_prev {
+  left: 40px;
+}
+
+.brands_next {
+  right: 40px;
+}
+
+/*----*/
+
+/*for Demo Only*/
+.demo-row {
+  background-color: #333;
+  padding: 50px 0;
+}
+
+
+/*Implement*/
+.sponsor-feature {
+    background-color: #fff;
     padding: 20px;
-  }
-  
-  .slick-slide {
-      margin: 0px 20px;
-  }
-  
-  .slick-slide img {
-      width: 100%;
-  }
- */ 
-  .slick-slider
-  {
-      position: relative;
-      display: block;
-      box-sizing: border-box;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-              user-select: none;
-      -webkit-touch-callout: none;
-      -khtml-user-select: none;
-      -ms-touch-action: pan-y;
-          touch-action: pan-y;
-      -webkit-tap-highlight-color: transparent;
-  }
-  
-  .slick-list
-  {
-      position: relative;
-      display: block;
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-  }
-  .slick-list:focus
-  {
-      outline: none;
-  }
-  .slick-list.dragging
-  {
-      cursor: pointer;
-      cursor: hand;
-  }
-  
-  .slick-slider .slick-track,
-  .slick-slider .slick-list
-  {
-      -webkit-transform: translate3d(0, 0, 0);
-         -moz-transform: translate3d(0, 0, 0);
-          -ms-transform: translate3d(0, 0, 0);
-           -o-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-  }
-  
-  .slick-track
-  {
-      position: relative;
-      top: 0;
-      left: 0;
-      display: block;
-  }
-  .slick-track:before,
-  .slick-track:after
-  {
-      display: table;
-      content: '';
-  }
-  .slick-track:after
-  {
-      clear: both;
-  }
-  .slick-loading .slick-track
-  {
-      visibility: hidden;
-  }
-  
-  .slick-slide
-  {
-      display: none;
-      float: left;
-      height: 100%;
-      min-height: 1px;
-  }
-  [dir='rtl'] .slick-slide
-  {
-      float: right;
-  }
-  .slick-slide img
-  {
-      display: block;
-  }
-  .slick-slide.slick-loading img
-  {
-      display: none;
-  }
-  .slick-slide.dragging img
-  {
-      pointer-events: none;
-  }
-  .slick-initialized .slick-slide
-  {
-      display: block;
-  }
-  .slick-loading .slick-slide
-  {
-      visibility: hidden;
-  }
-  .slick-vertical .slick-slide
-  {
-      display: block;
-      height: auto;
-      border: 1px solid transparent;
-  }
-  .slick-arrow.slick-hidden {
-      display: none;
-  }
- 
+    border-radius: 5px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
 
- 
+#id-sponsors .carousel {
+    margin-bottom: 20px;
+}
+#id-sponsors .item {
+    padding-bottom: 20px;
+}
+#id-sponsors .carousel-indicators {
+    bottom: -25px;
+}
