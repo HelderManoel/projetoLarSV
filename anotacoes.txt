@@ -1,4 +1,7 @@
-   
+Co-financiamento da Prefeitura de Verdejante-PE, tem como objetivo principal garantir o acolhimento e a proteção integral à pessoa idosa acolhida.(2023)   
+
+O acolhimento e, a proteção integral da pessoa idosa acolhida, é assegurada em co-financiamento com a Prefeitura de Verdejante-PE.(2023)   
+
 <!--Teste de áudio -->
 <audio controls> 
   <source src="./assets/produtosSolidarios/musicas CD/Pra baixa da Égua eu Vou.mp3" type="audio/mp3"> 
