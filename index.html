@@ -36,6 +36,11 @@
   <!--coisa do maps-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
     integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+  <!--resonsividade: -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" media="(max-width: 800px)" href="example.css" />
+
   <!--oo
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -72,9 +77,16 @@
           <div class="col-sm-12 col-md-6 d-block">
             <div class="text-left">
               <a href="https://api.whatsapp.com/send?phone=5587991414947&amp;text=Olá" target="_blank"
-                class=" float-left" style="color: #FFF;"><span class="fa fa-phone mr-2"></span>
-                (87)99141-4947(whatsApp) | (87) 3871-4156
+                class="links float-left" style="color: #FFF;"><span class=""><i class="fa-brands fa-whatsapp"
+                    style="font-size: 20px;"></i></span>
+                (87)99141-4947(whatsApp) |
               </a>
+
+              <a href="https://api.whatsapp.com/send?phone=5587991414947&amp;text=Olá" target="_blank"
+                class="links float-left" style="color: #FFF;"><span class="fa fa-phone mr-2"></span>
+                (87) 3871-4156
+              </a>
+
             </div>
             <a href="https://api.whatsapp.com/send?phone=558788570717&amp;text=Olá" target="_blank" class=" float-left"
               style="color: #FFF;">
@@ -95,7 +107,7 @@
                   <!--<a href='https://www.facebook.com/' target=_blank><img src=images/face.png></a>-->
                 </a>
 
-                <a href="mailto:treinamentosdovalle@gmail.com" target="_blank" class="float-left"
+                <a href="mailto:treinamentosdovalle@gmail.com" target="_blank" class="links float-left"
                   style="color: #FFF;"><span class="fa fa-paper-plane mr-2"></span>
                   lsvsalgueiro@hotmail.com</a>
               </div>
@@ -110,21 +122,19 @@
   <!-- menu superior-->
   <section>
     <nav class="menu-geral menu navbar navbar-expand-md navbar-dark decoration-none fixed-top">
-      <div class="container-fluid">
-        <!--<a class="navbar-brand" href="#">LAR SÃO VICENTE DE PAULO</a>-->
+      <div class="container"><!---fluid-->
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse container d-flex justify-content-center" id="navbarCollapse">
-          <div class="col-sm">
+        <div class="col-sm collapse navbar-collapse d-flex" id="navbarCollapse"><!--container-->
+          <div class="">
+            <img class=" parceiros img-fluid" src="./assets/logo/logoSemBV.png" class="rounded float-left" alt="...">
+          </div>
+          <div class="p-2">
             <ul class="navbar-nav me-auto mb-2 mb-md-0 py-3">
-
-              <li>
-                <img class="parceiros" src="./assets/logo/logoSemBV.png" class="rounded float-left" alt="...">
-              </li>
-
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">INÍCIO</a>
               </li>
@@ -133,7 +143,7 @@
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   INSTITUCIONAL
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu mt-5" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="#">Direção</a>
                   <a class="dropdown-item" href="#">Atos constitutivos</a>
                   <a class="dropdown-item" href="institucional.html#ter">Títulos e reconhecimentos</a>
@@ -144,41 +154,35 @@
               <li class="nav-item active list-group">
                 <a class="nav-link text-white" href="transparencia.html">TRANSPARÊNCIA <span class="sr-only"></span></a>
               </li>
-
               <li class="nav-item active list-group">
                 <a class="nav-link text-white" href="publicacoes.html">PUBLICAÇÕES <span class="sr-only"></span></a>
               </li>
-
               <li class="nav-item dropdown list-group">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link text-white" href="#contato">
                   CONTATO
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Forum</a>
-                  <a class="dropdown-item" href="#pf">Perguntas frequentes</a>
-                  <a class="dropdown-item" href="#contato">Fale conosco</a>
-                </div>
               </li>
             </ul>
           </div>
-
-          <div class="col-sm d-flex justify-content-end align-items-center">
-            <form class="d-flex justify-content-end" role="search">
-              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"
-                style="width: 13rem;">
-              <button type="button" class="btn btn-outline-light">Pesquisar</button>
-            </form>
-          </div>
         </div>
 
+        <div class="col-sm d-flex justify-content-end align-items-center">
+          <!--<form class="d-flex justify-content-end" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"
+              style="width: 13rem;">
+            <button type="button" class="btn btn-outline-dark" style="background-color: #A9B388;">PESQUISAR</button>
+          </form>-->
+          <button type="button" class="btn btn-lg btn-outline-dark" style="background-color: #A9B388;">DOE
+            AGORA</button>
+        </div>
       </div>
+
     </nav>
   </section>
 
   <!--banner principal-->
-  <section class="bg-dark" style="margin-top: 128px;" style="margin-top: 128px;">
-    <div class="rep w-auto p-5 box mt-5" style="--bs-bg-opacity: .5;"><!--atributo - foto-->
+  <section class="bg-dark" style="margin-top: 128px; height: 400px; margin-top: 128px;">
+    <div class="rep w-auto p-5 box mt-5" style="--bs-bg-opacity: .5; height: 400px;"><!--atributo - foto-->
       <div class="container jumbotron">
         <div class="col-sm">
           <div class="d-flex flexx-row justify-content-between">
@@ -188,7 +192,7 @@
           <p class="fontes">Você já pensou em um Sertão em que todos idosos tenham os seus direitos garantidos?
             Liberdade, respeito, alimento, saúde, educação, cultura, esporte, lazer, direito à profissionalização, ao
             trabalho, à previdência e assistência social, à habitação e transporte.</p>
-          <p><button type="button" class="btn btn-outline-light">Saiba mais</button></p>
+          <p><button type="button" class="btn btn-outline-light">SAIBA MAIS</button></p>
         </div>
       </div>
     </div>
@@ -197,27 +201,24 @@
   <!--paragrafo e cards-->
   <section class="section-text">
     <div class="d-flex justify-content-center">
-      <div class="container marketing d-flex row featuret mt-5 mb-5">
+      <div class="container marketing d-flex row featuret mb-5">
         <div class="col-md-7 d-flex flex-column justify-content-center p-5">
           <h2 class="titulo mb-5">Sobre Nós</h2>
           <div class='texto-home'>
-            <p>O Lar de São Vicente de Paulo é uma Instituição de Longa Permanência para Idosos (ILPI), oferta o serviço
-              de acolhimento institucional para idosos, Obra Unida da Sociedade de São Vicente de Paulo (SSVP), está
-              localizada na cidade de Salgueiro, cidade polo do Sertão Central de Pernambuco. </p>
-            <p>É uma entidade privada, sem fins lucrativos, que atua a mais de 107 anos na região. Possui papel
-              relevante
-              na rede de garantia de direito à pessoa idosa, pois afiança o acolhimento a idosos em situação de
-              violência
-              e violação de direitos. Atualmente é a única entidade que oferta o serviço no Sertão Central, se tornando
-              assim, referência na prestação do serviço.</p>
+            <p>O Lar de São Vicente de Paulo em Salgueiro, Pernambuco, é uma ILPI que fornece acolhimento institucional
+              para idosos há mais de 107 anos. Como entidade sem fins lucrativos, desempenha um papel vital na proteção
+              dos direitos dos idosos, sendo referência no Sertão Central. Destaca-se pela dedicação em oferecer
+              assistência a idosos em situações de violência, consolidando sua importância na região.
+            </p>
           </div>
           <div class="d-flex flex-row align-items-end">
-            <a href="sobre.html"> <button type="button" class="btn btn-outline-dark">Saiba mais</button></a>
+            <a href="sobre.html"> <button type="button" class="btn btn-outline-dark"
+                style="background-color: #A9B388;">SAIBA MAIS</button></a>
           </div>
 
         </div>
 
-        <div class="col-md-5 d-flex align-items-start flex-row justify-content-around px-5">
+        <div class="col-md-5 d-flex align-items-center flex-row justify-content-around px-5">
           <!--class="services-bg pos-rel pt-30 pr-30 pl-30"-->
           <div class="card">
             <div class="card-body">
@@ -225,7 +226,8 @@
               <p class="card-text">Faça uma Doação sem gastar nadinha, seja Pessoa Física ou Pessoa Jurídica e venha
                 fazer parte dessa história</p>
               <div class="d-flex flex-row align-items-end">
-                <button type="button" class="btn btn-outline-dark">Saiba mais</button>
+                <button type="button" class="btn btn-outline-dark" style="background-color: #A9B388;">SAIBA
+                  MAIS</button>
               </div>
             </div>
           </div>
@@ -241,18 +243,19 @@
     <div class="container d-flex flex-row">
       <div class="col-sm d-flex flex-column my-5 justify-content-center p-5">
         <div class="ml-3 texto-home">
-          <p class="texto-home">Você já pensou em um Sertão em que todos idosos tenham os seus direitos garantidos?
-            Liberdade, respeito, alimento, saúde, educação, cultura, esporte, lazer, direito à profissionalização, ao
-            trabalho, àprevidência e assistência social, à habitação e transporte. </p>
-          <p>Um sertão em que eles possam envelhecer com qualidade de vida e resgatar o protagonismo de suas próprias
-            vidas. Este é o sonho da comunidade vicentina!</p>
-          <p">E para isso, funciona como uma ponte entre quem quer ajudar e quem precisa de ajuda. Doadores,
-            voluntários, organizações, empresas e municípios são grandes parceiros nesta missão.</p>
+          <p>
+            A comunidade vicentina sonha com um Sertão em que todos os idosos tenham direitos assegurados. Atuando como
+            ponte entre doadores, voluntários e organizações, em busca de garantir liberdade, respeito, alimentação,
+            saúde, educação, cultura, lazer, e outros direitos essenciais com o objetivo de proporcionar um
+            envelhecimento com qualidade de vida e devolver aos idosos o protagonismo em suas vidas.
+          </p>
         </div>
       </div>
-      <div class="col-sm p-5 d-flex align-items-center">
-        <img class="img-verticais" src="./assets/fotosDoLar/geral/IMG_6.jpeg"
-          alt="#Para todos verem: Foto de evento com diversas pessoas, ao lado esquerdo, homem de pele negra, cabelo preto, óculos e camisa cinza e, ao lado direito, idosa de pele branca, cabelos grizalhos usando vestido azul em cadeira de rodas. Ambos sorriem enquanto exibem um certificado">
+      <div class="col-sm p-5 d-flex justify-content-center align-items-center">
+        <img class="img-fluid" src="./assets/fotosDoLar/geral/IMG_6.jpeg"
+          alt="#Para todos verem: Foto de evento com diversas pessoas, ao lado esquerdo, homem de pele negra, cabelo preto, óculos e camisa cinza e, ao lado direito, idosa de pele branca, cabelos grizalhos usando vestido azul em cadeira de rodas. Ambos sorriem enquanto exibem um certificado"
+          style="width: 70%;">
+        <!--style="width: 300px; height: 400px;">-->
       </div>
     </div>
   </section>
@@ -264,7 +267,7 @@
     </div>
     <div class="container d-flex flex-row">
       <div class="col-lg-6 my-5 p-5">
-        <img class=""
+        <img class="img-fluid"
           src="https://static.wixstatic.com/media/b0923f_9c36b5d4372c438c90a4f86674c741bc~mv2.jpeg/v1/fill/w_445,h_340,al_c,q_80,usm_0.66_1.00_0.01/b0923f_9c36b5d4372c438c90a4f86674c741bc~mv2.jpeg"
           alt="">
       </div>
@@ -276,7 +279,7 @@
               <h2 class="subtitulo mb-5"> Faça uma doação agora </h2>
               <p>Tem interesse em contribuir com uma melhor qualidade de vida para os idosos? Doe de forma fácil e
                 segura. Cada contribuição pode fazer a diferença. Faça parte dessa comunidade.</p>
-              <button type="button" class="btn btn-outline-dark">Saiba mais</button>
+              <button type="button" class="btn btn-outline-dark" style="background-color: #A9B388;">SAIBA MAIS</button>
             </div>
           </div>
         </div>
@@ -309,7 +312,7 @@
               </div>
             </div>
             <div class="col-sm p-5">
-              <img class="img-pf" src="./assets/fotosDoLar/geral/IMG_7.jpg"
+              <img class="img-pf img-fluid" src="./assets/fotosDoLar/geral/IMG_7.jpg"
                 alt="#Para todos verem: Foto de evento com diversas pessoas, ao lado esquerdo, homem de pele negra, cabelo preto, óculos e camisa cinza e, ao lado direito, idosa de pele branca, cabelos grizalhos usando vestido azul em cadeira de rodas. Ambos sorriem enquanto exibem um certificado">
             </div>
           </div>
@@ -329,7 +332,7 @@
               </div>
             </div>
             <div class="col-sm p-5">
-              <img class="img-pf" src="./assets/fotosDoLar/geral/IMG_8.jpg"
+              <img class="img-pf img-fluid" src="./assets/fotosDoLar/geral/IMG_8.jpg"
                 alt="#Para Todos Verem: Um grupo de quatro idosos cadeirantes que vestem camisas padronizadas brancas com detalhes em verde ou roxo é conduzido por outro grupo de pessoas com o mesmo padrão de vestimenta.">
             </div>
           </div>
@@ -351,7 +354,7 @@
               </div>
             </div>
             <div class="col-sm p-5">
-              <img class="img-pf" src="./assets/fotosDoLar/geral/IMG_9.jpg"
+              <img class="img-pf img-fluid" src="./assets/fotosDoLar/geral/IMG_9.jpg"
                 alt="#Para todos verem: Foto de idoso cadeirante de pele parda usando chapéu de couro e jibão. Ele se encontra ao ar livre, na frente de diversas pessoas e ao fundo, a vista de uma casa ">
             </div>
           </div>
@@ -407,7 +410,7 @@
                     <textarea style="width: 416px;" class="form-control" id="exampleFormControlTextarea1" rows="3"
                       placeholder="Mensagem"></textarea>
                   </div>
-                  <button type="button" class="btn btn-outline-dark">Enviar</button>
+                  <button type="button" class="btn btn-outline-dark" style="background-color: #A9B388;">ENVIAR</button>
                 </div>
               </form>
             </div>
@@ -418,7 +421,20 @@
 
   </section>
 
-  <!--slide dos parceiros-->
+  <!--parceiros-->
+  <section class="mt-5">
+    <div class="d-flex justify-content-center">
+      <h2 class="titulo"> Empresas parceiras </h2>
+    </div>
+    <div class="container d-flex flex-row">
+      <div class="col-sm"><img class="img-slide" src="./assets/parceiros/p1.webp" alt=""></div>
+      <div class="col-sm"><img class="img-slide" src="./assets/parceiros/p2.webp" alt=""></div>
+      <div class="col-sm"><img class="img-slide" src="./assets/parceiros/p3.webp" alt=""></div>
+      <div class="col-sm"><img class="img-slide" src="./assets/parceiros/p4.webp" alt=""></div>
+    </div>
+  </section>
+
+  <!--antigo slide dos parceiros
   <section>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -452,31 +468,55 @@
             </div>
           </div>
         </div>
-        <!-- ... -->
       </div>
     </div>
   </section>
+-->
 
   <!--sessão final - Rodapé -->
   <section style="background-color: #5F6F52; color: white;">
     <div class="container mt-5 d-flex flex-row justify-content-around align-items-center">
-      <div class="col-sm d-flex flex-row justify-content-center mx-2">
-        <p>
-          &copy Copyright 2024 - LarSVP - <br>
-          Desenvolvido através de extensão <br>
-          do IF Sertão Campus Salgueiro
-        </p>
+      <div class="col-sm d-flex row justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center mt-5 mb-3">
+          <img class=" parceiros" src="./assets/logo/logoSemBV.png" class="rounded float-left" alt="...">
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <p>
+            Salgueiro – PE 56000-000
+          </p>
+          <p>
+            Rua João Alves de Carvalho. 30
+          </p>
+          <p>
+            lsvsalgueiro@hotmail.com
+          </p>
+          <p>
+            (87)99141-4947 (whatsApp)
+          </p>
+        </div>
       </div>
 
-      <div class="col-sm d-flex justify-content-center mx-2" style="height: 150px;">
+      <div class="col-sm d-flex justify-content-center align-items-center mx-2" style="height: 250px;">
         <hr class="vr">
       </div>
 
-      <div class="col-sm d-flex flex-row mx-2">
-        <p>
-          Desenvolvedores:<br>
-          Helder Manoel Sobreira dos Santos<br>
-          Walla Nascimento de Sousa
+      <div class=" col-sm d-flex flex-column justify-content-center align-items-center mx-2">
+        <div class="col-sm d-flex justify-content-end align-items-center">
+          <form class="d-flex justify-content-end mb-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"
+              style="width: 10rem;">
+            <button type="button" class="btn btn-outline-dark" style="background-color: #A9B388;"><i
+                class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </div>
+        <div>
+          <p>
+            © Copyright 2024 - LarSVP
+          </p>
+          <p style="font-size: 10pt;">
+            Devs: Walla Sousa, Helder Santos
+          </p>
+        </div>
       </div>
     </div>
   </section>

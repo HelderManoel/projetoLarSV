@@ -1,3 +1,9 @@
+A comunidade vicentina sonha com um Sertão em que todos os idosos tenham direitos assegurados. Atuando como ponte entre doadores, voluntários e organizações, busca garantir liberdade, respeito, alimentação, saúde, educação, cultura, lazer, e outros direitos essenciais. O objetivo é proporcionar envelhecimento com qualidade de vida e devolver aos idosos o protagonismo em suas vidas.
+
+A comunidade vicentina sonha com um Sertão em que todos os idosos tenham seus direitos assegurados, incluindo liberdade, respeito, alimentação, saúde, educação, cultura, esporte, lazer, profissionalização, trabalho, previdência, assistência social, habitação e transporte. O objetivo é proporcionar um envelhecimento com qualidade de vida, permitindo que os idosos recuperem o protagonismo de suas vidas. Nesse contexto, a comunidade vicentina atua como uma ponte entre aqueles que desejam ajudar e aqueles que necessitam de assistência, contando com doadores, voluntários, organizações, empresas e municípios como parceiros essenciais nessa nobre missão.
+
+O Lar de São Vicente de Paulo em Salgueiro, Pernambuco, é uma ILPI que fornece acolhimento institucional para idosos há mais de 107 anos. Como entidade sem fins lucrativos, desempenha um papel vital na proteção dos direitos dos idosos, sendo referência no Sertão Central. Destaca-se pela dedicação em oferecer assistência a idosos em situações de violência, consolidando sua importância na região.
+
 Co-financiamento da Prefeitura de Verdejante-PE, tem como objetivo principal garantir o acolhimento e a proteção integral à pessoa idosa acolhida.(2023)   
 
 O acolhimento e, a proteção integral da pessoa idosa acolhida, é assegurada em co-financiamento com a Prefeitura de Verdejante-PE.(2023)   
@@ -397,10 +403,71 @@ $(document).ready(function(){
             Liberdade, respeito, alimento, saúde, educação, cultura, esporte, lazer, direito à profissionalização, ao
             trabalho, à previdência e assistência social, à habitação e transporte.</p>
           <p><button type="button" class="btn btn-outline-light">Saiba mais</button></p>
+          
         </div>
       </div>
     </div>
   </section>
  
 
- 
+ <!-- menu superior-->
+  <section>
+    <nav class="menu-geral menu navbar navbar-expand-md navbar-dark decoration-none fixed-top">
+      <div class="container"><!---fluid-->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="col collapse navbar-collapse d-flex justify-content-center" id="navbarCollapse"><!--container-->
+          <div class="d-flex flex-row align-items-center justify-content-center">
+            <div class="mr-4 p-2">
+              <img class="parceiros" src="./assets/logo/logoSemBV.png" class="rounded float-left" alt="...">
+            </div>
+            <div>
+              <ul class="navbar-nav me-auto mb-2 mb-md-0 py-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">INÍCIO</a>
+                </li>
+                <li class="nav-item dropdown list-group decoration-none">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    INSTITUCIONAL
+                  </a>
+                  <div class="dropdown-menu mt-5" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Direção</a>
+                    <a class="dropdown-item" href="#">Atos constitutivos</a>
+                    <a class="dropdown-item" href="institucional.html#ter">Títulos e reconhecimentos</a>
+                    <a class="dropdown-item" href="institucional.html#mvv">Missão/visão/valores</a>
+                    <a class="dropdown-item" href="#">Objetivos de desenvolvimento sustentável</a>
+                  </div>
+                </li>
+                <li class="nav-item active list-group">
+                  <a class="nav-link text-white" href="transparencia.html">TRANSPARÊNCIA <span
+                      class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active list-group">
+                  <a class="nav-link text-white" href="publicacoes.html">PUBLICAÇÕES <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown list-group">
+                  <a class="nav-link text-white" href="#contato">
+                    CONTATO
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm d-flex justify-content-end align-items-center">
+          <form class="d-flex justify-content-end" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"
+              style="width: 13rem;">
+            <button type="button" class="btn btn-outline-light">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+
+    </nav>
+  </section>
