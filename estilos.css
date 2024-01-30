@@ -1,3 +1,7 @@
+/*----------------------
+.div-slide {
+  height: 300px;
+}
 body { 
   padding: 0px; 
   background:#eee; 
@@ -15,7 +19,7 @@ body {
   display: none;
 }
 
-/* max-width  */
+/* max-width  
 @media (max-width: 600px) {
   .um {
       background: rgb(255, 153, 184);
@@ -25,7 +29,7 @@ body {
   }
 }
 
-/* min-width */
+/* min-width 
 @media (min-width: 900px) {
   .dois {
       background: #F90;
@@ -35,7 +39,7 @@ body {
   }
 }
 
-/* min-width & max-width */
+/* min-width & max-width 
 @media (min-width: 600px) and (max-width: 900px) {
   .tres {
       background: rgb(121, 174, 228);
@@ -45,14 +49,14 @@ body {
   }
 }
 
-/* max width telas pequenas */
+/* max width telas pequenas
 @media (max-width: 480px) {
   .iphone {
       background: rgb(209, 165, 209);
   }
 }
 
-/*--------------------------------------------*/
+----------------------*/
 
 .links {
   text-decoration: none;
