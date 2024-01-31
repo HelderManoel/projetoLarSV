@@ -1,3 +1,7 @@
+.linha-vertical {
+  height: 200px;/*Altura da linha*/
+  border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+}
 /*----------------------
 .div-slide {
   height: 300px;
@@ -151,7 +155,7 @@ h2.titulo {
 
 
 body {
-  background-color: #FEFAE0;
+  background-color: #fff;
 
 }
 
