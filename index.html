@@ -68,7 +68,7 @@
 <!-- Script com a função de aumentar a fonte -->
 <script src="/fonte.js"></script>
 
-<body class="acessibilidade w-100%">
+<body class="acessibilidade w-100%" style="width: 100%; font-size: 20px;">
 
   <!-- vlibras -->
   <div vw class="enabled">
@@ -81,18 +81,18 @@
   <!--barra do topo-->
   <section>
     <nav class="barra-topo">
-      <div class="container">
+      <div class="container phone">
         <div class="d-flex flex-row">
           <div class="col-sm-12 col-md-6 d-block">
             <div class="text-left">
               <a href="https://api.whatsapp.com/send?phone=5587991414947&amp;text=Olá" target="_blank"
-                class="links float-left" style="color: #FFF;"><span class=""><i class="fa-brands fa-whatsapp"
+                class="links float-left" style="color: #FFF;"><span class=""><i class="mr-1 fa-brands fa-whatsapp"
                     style="font-size: 20px;"></i></span>
                 (87)99141-4947(whatsApp) |
               </a>
 
               <a href="https://api.whatsapp.com/send?phone=5587991414947&amp;text=Olá" target="_blank"
-                class="links float-left" style="color: #FFF;"><span class="fa fa-phone mr-2"></span>
+                class="ml-1 links float-left" style="color: #FFF;"><span class="fa fa-phone mr-2"></span>
                 (87) 3871-4156
               </a>
 
@@ -119,7 +119,22 @@
 
                 <a href="mailto:treinamentosdovalle@gmail.com" target="_blank" class="links float-left"
                   style="color: #FFF;"><span class="fa fa-paper-plane mr-2"></span>
-                  lsvsalgueiro@hotmail.com</a>
+                  lsvsalgueiro@hotmail.com | </a>
+
+                <div id="dropmenu" class="absolute hidden flex-col w-40 text-center rounded-lg shadow-md"
+                  style="background-color: #A9B388; color: #FFF;">
+
+                  <a onclick="fonte('a')"
+                    class="block text-secoundTextColor px-4 py-2 hover:bg-indigo-200 hover:text-titleTextColor cursor-pointer">
+                    A++ </a>
+                  <a onclick="fonte('n')"
+                    class="block text-secoundTextColor hover:bg-indigo-200 hover:text-titleTextColor cursor-pointer"> A
+                  </a>
+                  <a onclick="fonte('d')"
+                    class="block text-secoundTextColor px-4 py-2 hover:bg-indigo-200 hover:text-titleTextColor cursor-pointer">
+                    A-- </a>
+
+                </div>
 
                 <!--icone do acesso universal
               <i class="fa-solid fa-universal-access"></i>
@@ -134,7 +149,7 @@
   </section>
 
   <!-- menu superior-->
-  <section>
+  <section class="acessibilidade">
     <nav class="menu-geral menu navbar navbar-expand-md navbar-dark decoration-none fixed-top">
       <div class="container">
 
@@ -191,7 +206,7 @@
   </section>
 
   <!--banner principal-->
-  <section class="bg-dark" style="margin-top: 128px; height: 400px; margin-top: 128px;" id="banner">
+  <section class="bg-dark" style="margin-top: 128px; height: 400px; margin-top: 128px; font-size: 18px;" id="banner">
     <div class="rep w-auto p-5 box mt-5 d-flex" style="--bs-bg-opacity: .5; height: 400px;">
       <div class="d-flex flex-column justify-content-center">
         <div class="d-flex flexx-row justify-content-between">
@@ -205,7 +220,6 @@
     </div>
   </section>
 
-
   <!--paragrafo e cards-->
   <section class="section-text">
     <div class="d-flex justify-content-center">
@@ -213,7 +227,8 @@
         <div class="col-md-8 d-flex flex-column justify-content-center p-5">
           <h2 class="titulo mb-5">Sobre Nós</h2>
           <div class='texto-home'>
-            <p>O Lar de São Vicente de Paulo em Salgueiro, Pernambuco, é uma ILPI que fornece acolhimento institucional
+            <p class="acessibilidade">O Lar de São Vicente de Paulo em Salgueiro, Pernambuco, é uma ILPI que fornece
+              acolhimento institucional
               para idosos há mais de 107 anos. Como entidade sem fins lucrativos, desempenha um papel vital na proteção
               dos direitos dos idosos, sendo referência no Sertão Central. Destaca-se pela dedicação em oferecer
               assistência a idosos em situações de violência, consolidando sua importância na região.
@@ -229,10 +244,12 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Doações</h5>
-              <p class="card-text">Faça uma Doação sem gastar nadinha, seja Pessoa Física ou Pessoa Jurídica e venha
+              <p class="card-text" style="font-size: 18px;">Faça uma Doação sem gastar nadinha, seja Pessoa Física ou
+                Pessoa Jurídica e venha
                 fazer parte dessa história</p>
               <div class="d-flex flex-row align-items-end">
-                <a href="doacoes.html"><button type="button" class="btn btn-outline-dark" style="background-color: #A9B388;">SAIBA MAIS</button></a>
+                <a href="doacoes.html"><button type="button" class="btn btn-outline-dark"
+                    style="background-color: #A9B388;">SAIBA MAIS</button></a>
               </div>
             </div>
           </div>
@@ -243,11 +260,13 @@
     </div>
   </section>
 
-  <!--IMG&Paragrafo-->
-  <section style="background-color: #EBE3D5;">
-    <div class="container d-flex flex-row">
-      <div class="col-sm d-flex flex-column my-5 justify-content-center p-5">
-        <div class="ml-3 texto-home">
+  <a href="testes.html">biruleibe</a>
+
+  <!--IMG&Paragrafo--->
+  <section class="section-text texto-home" style="background-color: #EBE3D5;">
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="row">
+        <div class="col-sm d-flex flex-column my-5 justify-content-center p-5">
           <p>
             A comunidade vicentina sonha com um Sertão em que todos os idosos tenham direitos assegurados. Atuando como
             ponte entre doadores, voluntários e organizações, em busca de garantir liberdade, respeito, alimentação,
@@ -255,12 +274,11 @@
             envelhecimento com qualidade de vida e devolver aos idosos o protagonismo em suas vidas.
           </p>
         </div>
-      </div>
-      <div class="col-sm p-5 d-flex justify-content-center align-items-center">
-        <img class="img-fluid" src="./assets/fotosDoLar/geral/IMG_6.jpeg"
-          alt="#Para todos verem: Foto de evento com diversas pessoas, ao lado esquerdo, homem de pele negra, cabelo preto, óculos e camisa cinza e, ao lado direito, idosa de pele branca, cabelos grizalhos usando vestido azul em cadeira de rodas. Ambos sorriem enquanto exibem um certificado"
-          style="width: 70%;">
-        <!--style="width: 300px; height: 400px;">-->
+        <div class="col-sm p-5 d-flex justify-content-center align-items-center">
+          <img src="./assets/fotosDoLar/geral/IMG_6.jpeg" alt="" style="width: 75%;">
+          <!--style="width: 75%;"-->
+          <!--style="width: 70; height: 400px;">-->
+        </div>
       </div>
     </div>
   </section>
@@ -270,23 +288,29 @@
     <div class="img image-overlay2"
       style="background-image: url(./assets/fotosDoLar/geral/IGM_5.jpeg); filter: brightness(65%)">
     </div>
-    <div class="container d-flex flex-row">
-      <div class="col-lg-6 my-5 p-5">
-        <img class="img-fluid" src="./assets/outros/vazia.png" alt="">
-      </div>
-      <div class="col-lg-6 d-flex flex-column my-5 justify-content-center">
-        <div class="mx-1">
-          <div class="d-flex flex-column justify-content-center align-items-center p-5">
-            <div class='texto-home'>
 
-              <h2 class="subtitulo mb-5"> Faça uma doação agora </h2>
-              <p>Tem interesse em contribuir com uma melhor qualidade de vida para os idosos? Doe de forma fácil e
-                segura. Cada contribuição pode fazer a diferença. Faça parte dessa comunidade.</p>
-              <button type="button" class="btn btn-outline-dark" style="background-color: #A9B388;">SAIBA MAIS</button>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 my-5 p-5">
+
+          <img class="img-fluid" src="./assets/outros/vazia.png" alt="">
+        </div>
+        <div class="col-lg-6 d-flex flex-column my-5 justify-content-center">
+          <div class="mx-1">
+            <div class="d-flex flex-column justify-content-center align-items-center p-5">
+              <div class='texto-home'>
+
+                <h2 class="subtitulo mb-5"> Faça uma doação agora </h2>
+                <p>Tem interesse em contribuir com uma melhor qualidade de vida para os idosos? Doe de forma fácil e
+                  segura. Cada contribuição pode fazer a diferença. Faça parte dessa comunidade.</p>
+                <button type="button" class="btn btn-outline-dark" style="background-color: #A9B388;">SAIBA
+                  MAIS</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
 
@@ -301,64 +325,72 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
 
-          <div class="container d-flex flex-row">
-            <div class="col-sm d-flex flex-column mt-5 justify-content-center p-5 div-slide">
-              <div class="ml-1 texto-home">
-                <h4 class="subtitulo">Como posso solicitar uma vaga?</h4>
-                <p>Presencialmente junto a setor psicossocial, via formulário eletrônico, via serviços
-                  socioassistenciais (CRAS, CREAS, etc) e via Ministério Público.</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm d-flex flex-column mt-5 justify-content-center p-5 div-slide">
+                <div class="ml-1 texto-home">
+                  <h4 class="subtitulo">Como posso solicitar uma vaga?</h4>
+                  <p>Presencialmente junto a setor psicossocial, via formulário eletrônico, via serviços
+                    socioassistenciais (CRAS, CREAS, etc) e via Ministério Público.</p>
+                </div>
+                <div class="mx-1 texto-home">
+                  <h4 class="subtitulo">A entidade só acolhe pessoas católicas?</h4>
+                  <p>Não, a entidade respeita a diversidade religiosa e assegura a liberdade dos acolhidos em seguir
+                    suas
+                    crenças.</p>
+                </div>
               </div>
-              <div class="mx-1 texto-home">
-                <h4 class="subtitulo">A entidade só acolhe pessoas católicas?</h4>
-                <p>Não, a entidade respeita a diversidade religiosa e assegura a liberdade dos acolhidos em seguir suas
-                  crenças.</p>
+              <div class="col-sm p-5 mb-1">
+                <img class="img-pf img-fluid" src="./assets/fotosDoLar/geral/IMG_7.jpg"
+                  alt="#Para todos verem: Foto de evento com diversas pessoas, ao lado esquerdo, homem de pele negra, cabelo preto, óculos e camisa cinza e, ao lado direito, idosa de pele branca, cabelos grizalhos usando vestido azul em cadeira de rodas. Ambos sorriem enquanto exibem um certificado">
               </div>
-            </div>
-            <div class="col-sm p-5 mb-1">
-              <img class="img-pf img-fluid" src="./assets/fotosDoLar/geral/IMG_7.jpg"
-                alt="#Para todos verem: Foto de evento com diversas pessoas, ao lado esquerdo, homem de pele negra, cabelo preto, óculos e camisa cinza e, ao lado direito, idosa de pele branca, cabelos grizalhos usando vestido azul em cadeira de rodas. Ambos sorriem enquanto exibem um certificado">
             </div>
           </div>
 
         </div>
         <div class="carousel-item">
 
-          <div class="container d-flex flex-row">
-            <div class="col-sm d-flex flex-column mt-5 justify-content-center p-5 div-slide">
-              <div class="ml-1 texto-home">
-                <h4 class="subtitulo">O Lar é público?</h4>
-                <p>Não. O Lar é uma entidade privada sem fins lucrativos.</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm d-flex flex-column mt-5 justify-content-center p-5 div-slide">
+                <div class="ml-1 texto-home">
+                  <h4 class="subtitulo">O Lar é público?</h4>
+                  <p>Não. O Lar é uma entidade privada sem fins lucrativos.</p>
+                </div>
+                <div class="texto-home">
+                  <h4 class="subtitulo">Só é acolhido quem tem benefício?</h4>
+                  <p>Não, a entidade não condiciona o acolhimento a existência de renda.</p>
+                </div>
               </div>
-              <div class="texto-home">
-                <h4 class="subtitulo">Só é acolhido quem tem benefício?</h4>
-                <p>Não, a entidade não condiciona o acolhimento a existência de renda.</p>
+              <div class="col-sm p-5 mb-1">
+                <img class="img-pf img-fluid" src="./assets/fotosDoLar/geral/IMG_8.jpg"
+                  alt="#Para Todos Verem: Um grupo de quatro idosos cadeirantes que vestem camisas padronizadas brancas com detalhes em verde ou roxo é conduzido por outro grupo de pessoas com o mesmo padrão de vestimenta.">
               </div>
-            </div>
-            <div class="col-sm p-5 mb-1">
-              <img class="img-pf img-fluid" src="./assets/fotosDoLar/geral/IMG_8.jpg"
-                alt="#Para Todos Verem: Um grupo de quatro idosos cadeirantes que vestem camisas padronizadas brancas com detalhes em verde ou roxo é conduzido por outro grupo de pessoas com o mesmo padrão de vestimenta.">
             </div>
           </div>
 
         </div>
         <div class="carousel-item">
 
-          <div class="container d-flex flex-row">
-            <div class="col-sm d-flex flex-column mt-5 justify-content-center p-5 div-slide">
-              <div class="ml-1 texto-home">
-                <h4 class="subtitulo">Quem pode ser acolhido?</h4>
-                <p>Pessoas idosas de ambos os sexos com 60 anos ou mais, que manifestem o desejo de residir no Lar.</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm d-flex flex-column mt-5 justify-content-center p-5 div-slide">
+                <div class="ml-1 texto-home">
+                  <h4 class="subtitulo">Quem pode ser acolhido?</h4>
+                  <p>Pessoas idosas de ambos os sexos com 60 anos ou mais, que manifestem o desejo de residir no Lar.
+                  </p>
+                </div>
+                <div class="texto-home">
+                  <h4 class="subtitulo">O salário dos idosos mantém a entidade?</h4>
+                  <p>Não! Para a arrecadação do valor, entram doações da comunidade, 70% do Benefício da pessoa idosa,
+                    projetos de
+                    incentivos fiscais e co-financiamentos municipais.</p>
+                </div>
               </div>
-              <div class="texto-home">
-                <h4 class="subtitulo">O salário dos idosos mantém a entidade?</h4>
-                <p>Não! Para a arrecadação do valor, entram doações da comunidade, 70% do Benefício da pessoa idosa,
-                  projetos de
-                  incentivos fiscais e co-financiamentos municipais.</p>
+              <div class="col-sm p-5 mb-1">
+                <img class="img-pf img-fluid" src="./assets/fotosDoLar/geral/IMG_9.jpg"
+                  alt="#Para todos verem: Foto de idoso cadeirante de pele parda usando chapéu de couro e jibão. Ele se encontra ao ar livre, na frente de diversas pessoas e ao fundo, a vista de uma casa ">
               </div>
-            </div>
-            <div class="col-sm p-5 mb-1">
-              <img class="img-pf img-fluid" src="./assets/fotosDoLar/geral/IMG_9.jpg"
-                alt="#Para todos verem: Foto de idoso cadeirante de pele parda usando chapéu de couro e jibão. Ele se encontra ao ar livre, na frente de diversas pessoas e ao fundo, a vista de uma casa ">
             </div>
           </div>
 
@@ -410,7 +442,7 @@
                 <div class="container">
                   <div class="form-group mb-3">
                     <label class="texto-home" for="exampleFormControlTextarea1">Mensagem</label>
-                    <textarea style="width: 416px;" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
                       placeholder="Mensagem"></textarea>
                   </div>
                   <button type="button" class="btn btn-outline-dark" style="background-color: #A9B388;">ENVIAR</button>
@@ -442,7 +474,7 @@
   <!--sessão final - Rodapé -->
   <section style="background-color: #5F6F52; color: white;">
     <div class="container mt-5 d-flex flex-row justify-content-around align-items-center">
-      
+
       <div class="col-sm d-flex flex-column justify-content-center align-items-center">
         <div class="d-flex justify-content-center align-items-center mt-5 mb-3">
           <img class=" parceiros" src="./assets/logo/logoSemBV.png" class="rounded float-left" alt="...">
@@ -464,7 +496,7 @@
         <div class="d-flex flex-column justify-content-end align-items-center">
           <form class="d-flex justify-content-end mb-3" role="search">
             <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"
-              style="width: 10rem;">
+              style="width: 100%;">
             <button type="button" class="btn btn-outline-dark" style="background-color: #A9B388;"><i
                 class="fa-solid fa-magnifying-glass"></i></button>
           </form>

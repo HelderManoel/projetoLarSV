@@ -1,66 +1,29 @@
+/* testes */
+@media screen and (max-width: 500px) {
+  body {
+    width: 75%;
+    font-size: 12px;
+  }
+li {
+  font-size: 11pt;
+}
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  div {
+    width: 100%;
+    }
+}
+
+
 .linha-vertical {
-  height: 200px;/*Altura da linha*/
-  border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  height: 200px;
+  /*Altura da linha*/
+  border-left: 2px solid;
+  /* Adiciona borda esquerda na div como ser fosse uma linha.*/
 }
-/*----------------------
-.div-slide {
-  height: 300px;
-}
-body { 
-  padding: 0px; 
-  background:#eee; 
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.caixa {
-  border: solid 1px #666; 
-  padding: 5px 10px;
-  margin: 40px;
-}
-
-.area-visivel span {
-  color: #666;
-  display: none;
-}
-
-/* max-width  
-@media (max-width: 600px) {
-  .um {
-      background: rgb(255, 153, 184);
-  }
-  span .menor600 {
-      display: inline-block;
-  }
-}
-
-/* min-width 
-@media (min-width: 900px) {
-  .dois {
-      background: #F90;
-  }
-  span .maior900 {
-      display: inline-block;
-  }
-}
-
-/* min-width & max-width 
-@media (min-width: 600px) and (max-width: 900px) {
-  .tres {
-      background: rgb(121, 174, 228);
-  }
-  span .entre600-900 {
-      display: inline-block;
-  }
-}
-
-/* max width telas pequenas
-@media (max-width: 480px) {
-  .iphone {
-      background: rgb(209, 165, 209);
-  }
-}
-
-----------------------*/
 
 .links {
   text-decoration: none;
@@ -68,8 +31,8 @@ body {
 }
 
 .img-slide {
-width: 50%;
-/* height: 200px; */
+  width: 50%;
+  /* height: 200px; */
 }
 
 .img-pf {
@@ -127,7 +90,7 @@ h2.titulo {
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(./assets/fotosDoLar/geral/IMG_12.jpg);
-    }
+}
 
 
 .grad {
@@ -135,7 +98,7 @@ h2.titulo {
   background-size: cover;
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    /* url("https://media.istockphoto.com/id/1446888422/pt/foto/woman-hugging-her-elderly-mother.webp?s=1024x1024&w=is&k=20&c=KDT1R43lrUOSo2AFzBWntzg9l4ALifBEHcdruSJI5lc="); */
+  /* url("https://media.istockphoto.com/id/1446888422/pt/foto/woman-hugging-her-elderly-mother.webp?s=1024x1024&w=is&k=20&c=KDT1R43lrUOSo2AFzBWntzg9l4ALifBEHcdruSJI5lc="); */
 }
 
 .rep {
@@ -195,15 +158,10 @@ body {
   margin-top: 0px;
 }
 
-.d-none {
-  display: none !important;
-}
-
 .menu-geral {
   position: fixed;
   z-index: 9999;
   background-color: #5F6F52;
-  /*background: #ffbb01;*/
   width: 100%;
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
@@ -224,17 +182,24 @@ body {
   transition: all .15s ease-in-out;
 }
 
+
 .contato-topo-dir {
   display: flex;
   justify-content: space-between;
 
 }
 
-/* --- */
+/*
+
+.d-none {
+  display: none !important;
+}
+
+--- */
 
 /* body{
     background:#eee;
-} */
+} 
 
 .brands {
   width: 100%;
@@ -296,34 +261,37 @@ body {
 .brands_next {
   right: 40px;
 }
-
+*/
 /*----*/
 
-/*for Demo Only*/
+/*for Demo Only
 .demo-row {
   background-color: #333;
   padding: 50px 0;
 }
+*/
 
-
-/*Implement*/
+/*Implement
 .sponsor-feature {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    min-height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5px 0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0;
 }
 
 #id-sponsors .carousel {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
+
 #id-sponsors .item {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
+
 #id-sponsors .carousel-indicators {
-    bottom: -25px;
+  bottom: -25px;
 }
+*/

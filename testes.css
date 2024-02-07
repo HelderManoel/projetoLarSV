@@ -1,0 +1,56 @@
+/* Estilos padrão para todas as telas */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Media query para telas pequenas (por exemplo, dispositivos móveis) */
+  @media screen and (max-width: 600px) {
+    header, footer {
+      padding: 5px;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  }
+  
+  /* Media query para telas médias (por exemplo, tablets) */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    header, footer {
+      padding: 10px;
+    }
+  
+    main {
+      padding: 20px;
+    }
+  }
+  
+  /* Media query para telas grandes (por exemplo, desktops) */
+  @media screen and (min-width: 1025px) {
+    header, footer {
+      padding: 20px;
+    }
+  
+    main {
+      padding: 30px;
+    }
+  }
+  
