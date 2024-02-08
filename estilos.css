@@ -32,7 +32,7 @@ li {
 
 .links {
   text-decoration: none;
-  color: #5F6F52;
+  color: #6bf15c;
 }
 
 .img-slide {
@@ -154,7 +154,7 @@ body {
   position: fixed;
   top: 0;
   /*background: #A9B388;*/
-  background: #02e3a7;
+  background: #6bf15c;
   width: 100%;
   z-index: 999999;
   font-size: 14px;
@@ -167,7 +167,7 @@ body {
 .menu-geral {
   position: fixed;
   z-index: 9999;
-  /*background-color: #5F6F52;*/
+  /*background-color: #6bf15c;*/
   background: #13144d;
   width: 100%;
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
@@ -180,7 +180,7 @@ body {
 .menu-geral-sozinho {
   position: fixed;
   z-index: 9999;
-  background-color: #5F6F52;
+  background-color: #6bf15c;
   /*background: #ffbb01;*/
   width: 100%;
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
