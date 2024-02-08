@@ -153,7 +153,8 @@ body {
 .barra-topo {
   position: fixed;
   top: 0;
-  background: #A9B388;
+  /*background: #A9B388;*/
+  background: #02e3a7;
   width: 100%;
   z-index: 999999;
   font-size: 14px;
