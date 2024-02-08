@@ -154,7 +154,7 @@ body {
   position: fixed;
   top: 0;
   /*background: #A9B388;*/
-  background: #6bf15c;
+  background: #00bbb4;
   width: 100%;
   z-index: 999999;
   font-size: 14px;
@@ -168,7 +168,7 @@ body {
   position: fixed;
   z-index: 9999;
   /*background-color: #6bf15c;*/
-  background: #13144d;
+  background: #1c65ac;
   width: 100%;
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
