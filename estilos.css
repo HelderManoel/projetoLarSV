@@ -167,7 +167,8 @@ body {
 .menu-geral {
   position: fixed;
   z-index: 9999;
-  background-color: #5F6F52;
+  /*background-color: #5F6F52;*/
+  background: #13144d;
   width: 100%;
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.075);
